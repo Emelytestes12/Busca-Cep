@@ -1,0 +1,67 @@
+body {
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+  
+}
+
+.form-card {
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: none;
+
+}
+
+.card-header {
+  background-color: #f9f5d1; /* Cor pastel amarela para o cabeçalho */
+  border-bottom: none;
+  border-radius: 15px 15px 0 0 !important;
+  padding: 20px;
+}
+
+.card-body {
+  background-color: #fff;
+  border-radius: 0 0 15px 15px;
+  padding: 25px;
+}
+
+.form-title {
+  color: #7b7a5b;
+  font-weight: 600;
+  margin: 0;
+}
+
+.form-label {
+  color: #7b7a5b;
+  font-weight: 500;
+}
+
+.form-control {
+  border: 1px solid #f1e9b8; /* Borda amarelo pastel */
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.form-control:focus {
+  border-color: #e6dfa3;
+  box-shadow: 0 0 0 0.25rem rgba(230, 223, 163, 0.25);
+}
+
+#loadingOverlay {
+  /* As linhas abaixo garantem que o elemento ocupe 100% do espaço da tela */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  /* Fundo branco semi-transparente */
+  background-color: rgba(255, 255, 255, 0.8);
+  /* Posiciona o spinner acima de todos os outros elementos HTML */
+  z-index: 9999;
+}
+
+.spinner-border {
+  /* Aumenta o tamanho do spinner */
+  width: 100px;
+  height: 100px;
+  color: #f9f5d1; /* Cor pastel amarela para o spinner */
+}
